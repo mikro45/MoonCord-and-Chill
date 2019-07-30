@@ -10,7 +10,7 @@ By smiley face mostly *(mikro45l)*.
 
 **Disclaimer: This isn't official nor recommended way of installing packages, e.g. ``Chrome Web Store``, but it is currently only way to do so.**
 
-1. [Download the extension](releases/download/v1.0/mooncord_and_chill.zip), *(also possible through releases page)*.
+1. [Download the extension](/mikro45/MoonCord-and-Chill/releases/download/v1.0/mooncord_and_chill.zip), *(also possible through releases page)*.
 2. Extract the downloaded extension.
 2. Enable ``Developer mode`` in ``extensions`` page in your browser by clicking on the button ``Developer mode``.
 3. Choose ``Load unpacked`` option and select the inside of the extracted folder.
