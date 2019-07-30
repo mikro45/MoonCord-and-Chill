@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "MoonCord and Chill",
+  "version": "1.0",
+
+  "description": "Enhances 'andchill.tv' website with global and 'moonmoon_ow' emotes from Twitch and BTTV. By smiley face mostly.",
+  "icons": {
+    "16": "images/angry16.png",
+    "32": "images/angry32.png",
+    "48": "images/angry48.png",
+    "128": "images/angry128.png"
+  },
+
+  "author": "smiley face mostly (mikro45l- Discord/Twitch)",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+   "content_scripts": [
+   {
+     "matches": ["https://*.andchill.tv/"],
+     "js": ["contentScript.js"]
+   }
+  ],
+  "content_security_policy": "default-src 'self' https://api.twitchemotes.com https://api.betterttv.net",
+  "permissions": [
+    "activeTab",
+    "https://api.twitchemotes.com/api/*",
+    "https://api.betterttv.net/2/*"
+  ],
+  "web_accessible_resources": [
+    "data/twitch_emoticons.json"
+  ]
+}
